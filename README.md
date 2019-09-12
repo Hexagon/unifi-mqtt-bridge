@@ -32,7 +32,7 @@ Variable | Default
 --- | ---
 NVR_HOST | -
 NVR_API_KEY | -
-UB_INTERVAL | 10
+UB_INTERVAL_S | 10
 UB_TIMEZONE | Europe/Stockholm
 UB_TIMEFORMAT | %Y-%m-%d %H:%M:%S
 MQTT_HOST | -
