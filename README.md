@@ -2,7 +2,7 @@
 
 Dockerized client that reads last motion of each camera on an Unifi NVR, and sends notifications to a MQTT broker.
 
-unifi-video-api by yuppity (https://github.com/yuppity/unifi-video-api) is bundled within this repository.
+unifi-video-api by yuppity (https://github.com/yuppity/unifi-video-api) is used and bundled within this repository.
 
 
 # Getting started
@@ -29,7 +29,7 @@ Variable | Default
 --- | ---
 NVR_HOST | -
 NVR_API_KEY | -
-UB_INTERVAL | 10
+UB_INTERVAL_S | 10
 UB_TIMEZONE | Europe/Stockholm
 UB_TIMEFORMAT | %Y-%m-%d %H:%M:%S
 MQTT_HOST | -
