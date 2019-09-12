@@ -2,6 +2,9 @@
 
 Dockerized client that reads last motion of each camera on an Unifi NVR, and sends notifications to a MQTT broker.
 
+unifi-video-api by yuppity (https://github.com/yuppity/unifi-video-api) is bundled within this repository.
+
+
 # Development setup
 
 Setup docker and bluez on the host computer, detailed walk through available at https://github.com/Airthings/wave-reader.
@@ -52,6 +55,7 @@ docker run \
 	--name="unifi-monitor" \
 	unifi-mqtt-bridge
 ```
+
 
 ## Debug
 
